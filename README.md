@@ -1,10 +1,21 @@
-# Getting Started with Custom Hooks with Project of Currency Convertor
+# Currency Converter App
 
-Basically while creating our custom hooks we can use other hooks such as useEffects and useState and all.
-In this project we created useCurrencyInfo hook in which whenever the function is called then only the api will fetch the data all mounting process get started.
-Therefore we can here use useEffect which basically handle the states 
+## Overview
 
-API USED - 
-let url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`
+The Currency Converter App is a simple web application built using React that allows users to convert currency between different currencies. It fetches real-time exchange rates from an API, making it easy to determine the value of money in various currencies.
 
-Here i learned about components reusability 
+## Features
+
+- Convert between different currencies.
+- Real-time exchange rate data.
+- User-friendly interface.
+- Swap between source and target currencies.
+- Easily configurable and customizable.
+
+## Dependencies
+React
+Axios (for making API requests)
+Tailwind CSS (for styling)
+
+## API Used
+The app fetches exchange rate data from the Currency API. You can replace this with any other currency exchange rate API of your choice.
